@@ -56,18 +56,15 @@ import leafftr from "../app/media/Rectangle 8925.png"
 import Head from "next/head";
 
 
-
-
-
 export default function Home() {
   return (
     <div className="body">
 <div>
   <center>
-  <img src={logo.src} alt="" className="logo mt-10" />
+  <Image src={logo.src} alt="" className="logo mt-10" />
   </center>
   <nav className="nav flex text-white font-sans absolute">
-    <Link href="/" className="pr-8">Home <img src={dot.src} alt="" className="ml-4"/></Link>
+    <Link href="/" className="pr-8">Home <Image src={dot.src} alt="" className="ml-4"/></Link>
     <Link href="/Menu" className="mr-8">Menu</Link>
     <Link href="/Blogpage" className="mr-8">Blog</Link>
     <Link href="/Pages" className="mr-8">Pages</Link>
@@ -81,7 +78,7 @@ export default function Home() {
 </div>
 
 <div className="mt-40">
-  <img src={dshmn.src} alt="" width={650} height={550} className="mainfd absolute" />
+  <Image src={dshmn.src} alt="" width={650} height={550} className="mainfd absolute" />
   <p className="tm1 font-greatvibes text-[#FF9F0D] pl-52 absolute">Its Quick & Amusing!</p>
   <p  className="tm2 text-white font-semibold absolute pl-52"><span className=" font-semibold text-[#FF9F0D]">Th</span>e Art of speed <br />food Quality</p>
   <p className="mt3 text-white text-sm absolute pl-52">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Incidunt magnam praesentium enim molestias dolorem </p>
@@ -89,20 +86,20 @@ export default function Home() {
      
 {/* dont use layout just the function </Header> it will be easy */}
 
-  <img src={line.src} alt=""  className="ml-40 mt-14"/>
+  <Image src={line.src} alt=""  className="ml-40 mt-14"/>
   <Link href="#"><RiFacebookFill className="fb text-white mt-10"/></Link>
   <Link href="#"><FaTwitter className="twt text-yellow-700 mt-10" /></Link>
   <Link href="#"><FaPinterestSquare className="pn text-white mt-10"/></Link>
-  <img src={line.src} alt=""className="ml-40 mt-10" />
+  <Image src={line.src} alt=""className="ml-40 mt-10" />
 
 </div>
 
 <div className="about_us">
   <div>
 
-  <img src={abtus1.src} alt="" width={660} height={330} className="abtimg1"/>
-  <img src={abtus2.src} alt="" width={322} height={194} className="abtimg2 " />
-  <img src={abtus3.src} alt="" width={322} height={194} className="abtimg3"/>
+  <Image src={abtus1.src} alt="" width={660} height={330} className="abtImage1"/>
+  <Image src={abtus2.src} alt="" width={322} height={194} className="abtImage2 " />
+  <Image src={abtus3.src} alt="" width={322} height={194} className="abtImage3"/>
   </div>
   <p className="abtus font-greatvibes text-[#FF9F0D]">About us</p>
   <p className="abtustxt font-semibold font-geistsans text-white "> <span className="text-[#FF9F0D]">We</span> Create the best <br /> foody product</p>
@@ -120,34 +117,34 @@ export default function Home() {
 <div className="mt-40">
   <p className="font-greatvibes text-[#FF9F0D] text-3xl ml-40 flex  justify-center">Food Category</p>
   <p className="font-semibold font-geistsans text-white text-4xl flex justify-center pt-4 ml-36"><span className=" text-[#FF9F0D]">Ch</span>oose Food Item</p>
-  <img src={leaf.src} alt="" className="leaf absolute "/>
-  <img src={fdc.src} alt="" width={1150} height={200} className="mt-14 ml-64"/>
+  <Image src={leaf.src} alt="" className="leaf absolute "/>
+  <Image src={fdc.src} alt="" width={1150} height={200} className="mt-14 ml-64"/>
 </div>
 
 <div>
   <div className="mt-44">
-    <img src={grd1.src} alt="" className="grd1 ml-56 absolute" width={325} />
-    <img src={grd2.src} alt="" className="grd2 absolute" width={281}/>
-    <img src={grd3.src} alt="" className="grd3 absolute ml-56 " width={244} height={306}/>
-    <img src={grd4.src} alt="" className="grd4 absolute" width={221}/>
-    <img src={grd5.src} alt="" className="grd5 absolute" width={161}/>
-    <img src={grd6.src} alt="" className="grd6 absolute" width={161}/>
+    <Image src={grd1.src} alt="" className="grd1 ml-56 absolute" width={325} />
+    <Image src={grd2.src} alt="" className="grd2 absolute" width={281}/>
+    <Image src={grd3.src} alt="" className="grd3 absolute ml-56 " width={244} height={306}/>
+    <Image src={grd4.src} alt="" className="grd4 absolute" width={221}/>
+    <Image src={grd5.src} alt="" className="grd5 absolute" width={161}/>
+    <Image src={grd6.src} alt="" className="grd6 absolute" width={161}/>
   </div>
 
   <p className="gridtxt1 font-greatvibes text-[#FF9F0D] absolute" >Why Choose us</p>
   <p className="gridtxt2 font-semibold font-geistsans text-white absolute text-4xl"><span className="text-[#FF9F0D]">Ex</span>tra ordinary taste <br /> And Experienced </p>
   <p className="gridtxt3 font-extralight absolute text-white  ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam <br /> pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit <br /> augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis <br />sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in <br />consequat.</p>
-  <img src={box.src} alt="" className="box absolute" /> 
+  <Image src={box.src} alt="" className="box absolute" /> 
   <PiHamburgerLight className="gridicn1 text-white absolute"/>
   <PiCookie className="gridicn2 text-white absolute m" />
   <PiWine className="gridicn3 text-white absolute" />
 
-  <img src={expnce.src} alt="pic" className="exp absolute" width={300} height={100}/>
+  <Image src={expnce.src} alt="pic" className="exp absolute" width={300} height={100}/>
 </div>
 
 <div className="client">
 
-<img src={client.src} alt="" />
+<Image src={client.src} alt="" />
 </div>
 
 <div className="mt-36 ">
@@ -165,20 +162,20 @@ export default function Home() {
   <Link href="" className="menu-lnks">Suops</Link>
   </ul>
 
-  <img src={menu1.src} alt=""  className="dish absolute mt-24" width={340}/>
-  <img src={menu2.src} alt="" width={450} className="mt-24 absolute ml-72" />
+  <Image src={menu1.src} alt=""  className="dish absolute mt-24" width={340}/>
+  <Image src={menu2.src} alt="" width={450} className="mt-24 absolute ml-72" />
 
   <div className="menu_1">
-    <Link href=""> <img src={menu1_1.src} alt="" width={310} className="m1_1 mt-5 absolute"/></Link>
-    <Link href=""> <img src={menu1_2.src} alt="" width={310} className="m1_2 mt-28 absolute"/></Link>
-    <Link href=""> <img src={menu1_3.src} alt="" width={310} className="m1_3 absolute"/></Link>
-    <Link href=""> <img src={menu1_4.src} alt="" width={310} className="m1_4 mt-6 absolute"/></Link>
+    <Link href=""> <Image src={menu1_1.src} alt="" width={310} className="m1_1 mt-5 absolute"/></Link>
+    <Link href=""> <Image src={menu1_2.src} alt="" width={310} className="m1_2 mt-28 absolute"/></Link>
+    <Link href=""> <Image src={menu1_3.src} alt="" width={310} className="m1_3 absolute"/></Link>
+    <Link href=""> <Image src={menu1_4.src} alt="" width={310} className="m1_4 mt-6 absolute"/></Link>
   </div>
   <div className="menu_2">
-    <Link href=""><img src={menu2_1.src} alt="" width={310} className="mt-5 absolute"/></Link>
-    <Link href=""><img src={menu2_2.src} alt="" width={310} className="m2_2 mt-6 absolute"/></Link>
-    <Link href=""><img src={menu2_3.src} alt="" width={310} className="m2_3 mt-6 absolute"/></Link>
-    <Link href=""><img src={menu2_4.src} alt="" width={310} className="m2_4 mt-6 absolute"/></Link>
+    <Link href=""><Image src={menu2_1.src} alt="" width={310} className="mt-5 absolute"/></Link>
+    <Link href=""><Image src={menu2_2.src} alt="" width={310} className="m2_2 mt-6 absolute"/></Link>
+    <Link href=""><Image src={menu2_3.src} alt="" width={310} className="m2_3 mt-6 absolute"/></Link>
+    <Link href=""><Image src={menu2_4.src} alt="" width={310} className="m2_4 mt-6 absolute"/></Link>
   </div>
 </div>
 
@@ -187,18 +184,18 @@ export default function Home() {
 <div className="chefs ">
   <p className="font-greatvibes text-[#FF9F0D] text-3xl flex justify-center">Chefs</p>
   <p className="font-semibold flex font-geistsans text-white text-4xl justify-center pt-5"><span className="text-[#FF9F0D]">Me</span>et Our Chef</p>
-   <img src={leaf2.src} alt="" className="rleaf absolute" />
+   <Image src={leaf2.src} alt="" className="rleaf absolute" />
   <div className="flex justify-center mt-12">
-  <img src={chef1.src} alt="" width={280} />
-  <img src={chef2.src} alt="" width={280} className="pl-6"/>
-  <img src={chef3.src} alt="" width={280} className="pl-6"/>
-  <img src={chef4.src} alt="" width={280} className="pl-6"/>
+  <Image src={chef1.src} alt="" width={280} />
+  <Image src={chef2.src} alt="" width={280} className="pl-6"/>
+  <Image src={chef3.src} alt="" width={280} className="pl-6"/>
+  <Image src={chef4.src} alt="" width={280} className="pl-6"/>
 
   </div>
   <button className="seemorechef font-inter ">See More</button>
 </div>
 <div className="flex justify-center mt-24">
-  <img src={test.src} alt="" width={1000}/>
+  <Image src={test.src} alt="" width={1000}/>
 </div>
 
 <div className="mt-24">
@@ -208,9 +205,9 @@ export default function Home() {
   <p className="vidtxt3 text-white font-inter absolute font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque <br /> 
   <span className="ml-24">bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, </span></p>
   <button className="rm absolute">Readmore</button>
-  <Link href="" className="play absolute"><img src={play.src} alt="" className="playimg"/></Link>
+  <Link href="" className="play absolute"><Image src={play.src} alt="" className="playImage"/></Link>
   <span className="playtxt absolute text-white font-inter font-bold">Play Video</span>
-  <img src={vid.src} alt=""  />
+  <Image src={vid.src} alt=""  />
 </div>
 
 
@@ -219,13 +216,13 @@ export default function Home() {
   <p className="font-semibold flex font-geistsans text-white text-4xl justify-center pt-5"> <span className=" text-[#FF9F0D]">La </span>test News & Blog</p>
 
   <div className="flex justify-center mt-14">
-  <img src={blogpst1.src} alt="" width={355} className="pl-5"/>
-  <img src={blogpst2.src} alt="" width={355} className="pl-5"/>
-  <img src={blogpst3.src} alt="" width={355} className="pl-5"/>
+  <Image src={blogpst1.src} alt="" width={355} className="pl-5"/>
+  <Image src={blogpst2.src} alt="" width={355} className="pl-5"/>
+  <Image src={blogpst3.src} alt="" width={355} className="pl-5"/>
   </div>
 </div>
 
-<img src={leafftr.src} alt="" className="ftrleaf"/>
+<Image src={leafftr.src} alt="" className="ftrleaf"/>
 
 <Footer/>
 
