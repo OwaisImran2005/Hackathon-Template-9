@@ -131,8 +131,8 @@ export default function Home() {
   <p className="gridtxt2 font-semibold font-geistsans text-white absolute text-4xl"><span className="text-[#FF9F0D]">Ex</span>tra ordinary taste <br /> And Experienced </p>
   <p className="gridtxt3 font-extralight absolute text-white  ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam <br /> pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit <br /> augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis <br />sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in <br />consequat.</p>
   <Image src={box.src} alt="" className="box absolute" /> 
-  <PiHamburgerLight className="gridicn1 text-white absolute"/>
-  <PiCookie className="gridicn2 text-white absolute m" />
+  <PiHamburgerLight className="gridicn1 text-white absolute -ml-20"/>
+  <PiCookie className="gridicn2 text-white absolute" />
   <PiWine className="gridicn3 text-white absolute" />
 
   <Image src={expnce.src} alt="pic" className="exp absolute" width={300} height={100}/>
