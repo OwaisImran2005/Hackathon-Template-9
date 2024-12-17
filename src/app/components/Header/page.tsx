@@ -1,5 +1,4 @@
 import Link from "next/link"
-import logo from "../../media/Foodtuck.png"
 import style from "../Header/page.module.css"
 import { SlMagnifier } from "react-icons/sl";
 import { LuUserRound } from "react-icons/lu";
