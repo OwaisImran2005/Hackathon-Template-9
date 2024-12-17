@@ -1,8 +1,6 @@
-import{Great_Vibes} from "next/font/google"
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../app/media/Foodtuck.png"
-import arw from "../app/media/Project Status.png"
 import { SlArrowDown } from "react-icons/sl";
 import dot from "../app/media/Ellipse 33.png"
 import { SlMagnifier } from "react-icons/sl";
@@ -11,7 +9,6 @@ import line from "../app/media/Line 11.png"
 import { RiFacebookFill } from "react-icons/ri";
 import { FaTwitter } from "react-icons/fa";
 import { FaPinterestSquare } from "react-icons/fa";
-import { TiTick } from "react-icons/ti";
 import dshmn from "../app/media/Image.png"
 import abtus1 from "../app/media/aboutus1.png"
 import abtus2 from "../app/media/aboutus2.png"
@@ -53,7 +50,6 @@ import blogpst2 from "../app/media/Blog Card 3.png"
 import blogpst3 from "../app/media/Blog Card 2.png"
 import Footer from "./components/Footer/page";
 import leafftr from "../app/media/Rectangle 8925.png"
-import Head from "next/head";
 
 
 export default function Home() {
