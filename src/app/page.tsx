@@ -93,9 +93,9 @@ export default function Home() {
 <div className="about_us">
   <div>
 
-  <Image src={abtus1.src} alt="" width={660} height={330} className="abtimage1"/>
-  <Image src={abtus2.src} alt="" width={322} height={194} className="abtimage2 " />
-  <Image src={abtus3.src} alt="" width={322} height={194} className="abtimage3"/>
+  <Image src={abtus1.src} alt="" width={660} height={330} className="abtimg1"/>
+  <Image src={abtus2.src} alt="" width={322} height={194} className="abtimg2 " />
+  <Image src={abtus3.src} alt="" width={322} height={194} className="abtimg3"/>
   </div>
   <p className="abtus font-greatvibes text-[#FF9F0D]">About us</p>
   <p className="abtustxt font-semibold font-geistsans text-white "> <span className="text-[#FF9F0D]">We</span> Create the best <br /> foody product</p>
