@@ -8,6 +8,8 @@ import ftr2 from "../../media/Resent post cadr 2.png"
 import ftr3 from "../../media/Resent post cadr 3.png"
 import leaf from "../../media/Rectangle 8925.png"
 import logo from "../../media/logoftr.png"
+import Image from "next/image";
+
 
 export default function Footer (){
 
@@ -22,14 +24,14 @@ export default function Footer (){
             <button className={style.btn} >Subscribe</button>
             </div>
 
-            <img src={line.src} alt="" className="mt-28 ml-60 absolute"/>
+            <Image src={line.src} alt="" className="mt-28 ml-60 absolute"/>
 <div className="absolute">
             <p className="font-geistsans text-white text-2xl ml-44 mt-44 font-semibold">About Us.</p>
             <p className="ftr_abt2 font-inter text-white font-extralight ml-40 pt-8">orporate clients and leisure travelers has <br />
 been relying on Groundlink for dependab <br />
 safe, and professional chauffeured car <br />
 service in major cities across World.</p>
-            <img src={watch.src} alt="" width={68} className="mt-7 ml-44"/>
+            <Image src={watch.src} alt="" width={68} className="mt-7 ml-44"/>
             <p className="ftrwct2 text-white font-extralightlight">Opening Houres <br />
 Mon - Sat(8.00 - 6.00) <br />
 Sunday - Closed</p>
@@ -64,15 +66,15 @@ Sunday - Closed</p>
 <p className="ftr5 font-geistsans text-2xl text-white font-semibold">Recent Post</p>
 <div className="ftr6">
 
-<img src={ftr1.src} alt="" className="pt-16" />
-<img src={ftr2.src} alt="" className="pt-3"/>
-<img src={ftr3.src} alt="" className="pt-3"/>
+<Image src={ftr1.src} alt="" className="pt-16" />
+<Image src={ftr2.src} alt="" className="pt-3"/>
+<Image src={ftr3.src} alt="" className="pt-3"/>
 </div>
 
             </div>
 <div className={style.cpyrght_logo}>
     <p className="text-white font-inter font-light font-lg pt-7 pl-16">Copyright © 2024 by Muhammad Owais . All Rights Reserved.</p>
-    <img src={logo.src} alt="" className={style.logoftr}/>
+    <Image src={logo.src} alt="" className={style.logoftr}/>
 </div>
 
         </div>
