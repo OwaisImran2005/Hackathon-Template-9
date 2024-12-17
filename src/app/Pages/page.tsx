@@ -2,7 +2,6 @@ import Header from "../components/Header/page"
 import bac from "../media/Background.png"
 import { MdKeyboardArrowRight } from "react-icons/md";
 import blogdtls from "../media/Left ber.png"
-import change from "../media/pagination.png"
 import sidebr from "../media/Side ber.png"
 import Footer from "../components/Footer/page";
 import Image from "next/image";
