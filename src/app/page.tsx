@@ -93,9 +93,9 @@ export default function Home() {
 <div className="about_us">
   <div>
 
-  <Image src={abtus1.src} alt="" width={660} height={330} className="abtImage1"/>
-  <Image src={abtus2.src} alt="" width={322} height={194} className="abtImage2 " />
-  <Image src={abtus3.src} alt="" width={322} height={194} className="abtImage3"/>
+  <Image src={abtus1.src} alt="" width={660} height={330} className="abtimage1"/>
+  <Image src={abtus2.src} alt="" width={322} height={194} className="abtimage2 " />
+  <Image src={abtus3.src} alt="" width={322} height={194} className="abtimage3"/>
   </div>
   <p className="abtus font-greatvibes text-[#FF9F0D]">About us</p>
   <p className="abtustxt font-semibold font-geistsans text-white "> <span className="text-[#FF9F0D]">We</span> Create the best <br /> foody product</p>
@@ -201,7 +201,7 @@ export default function Home() {
   <p className="vidtxt3 text-white font-inter absolute font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque <br /> 
   <span className="ml-24">bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, </span></p>
   <button className="rm absolute">Readmore</button>
-  <Link href="" className="play absolute"><Image src={play.src} alt="" className="playImage"/></Link>
+  <Link href="" className="play absolute"><Image src={play.src} alt="" className="playimage"/></Link>
   <span className="playtxt absolute text-white font-inter font-bold">Play Video</span>
   <Image src={vid.src} alt=""  />
 </div>
