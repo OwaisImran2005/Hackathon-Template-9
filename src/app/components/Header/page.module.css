@@ -1,0 +1,34 @@
+.header{
+    background-color: black;
+    width: 100%;
+    height: 85px;
+    /* position: absolute; */
+    /* position: fixed; */
+
+}
+
+.logo{
+    margin-left: 250px;
+}
+.magh{
+    /* float: right; */
+    margin-left: -70px;
+    margin-top: -20px;
+    font-size: 18px;
+    color: white;
+}
+
+.user{
+    /* margin-left: 1390px; */
+    margin-left: -38px;
+    margin-top: -20px;
+    font-size: 21px;
+    color: white;
+}
+.cart{
+    /* margin-left: 1435px; */
+    margin-left: -3px;
+    margin-top: -20px;
+    font-size: 21px;
+    color: white;
+}
