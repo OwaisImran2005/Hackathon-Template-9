@@ -1,12 +1,10 @@
 import Link from "next/link"
-import { MdEmail } from "react-icons/md"
 import style from "../Footer/page.module.css"
 import line from "../../media/Vector 17.png"
 import watch from "../../media/Watch.png"
 import ftr1 from "../../media/Resent post cadr 1.png"
 import ftr2 from "../../media/Resent post cadr 2.png"
 import ftr3 from "../../media/Resent post cadr 3.png"
-import leaf from "../../media/Rectangle 8925.png"
 import logo from "../../media/logoftr.png"
 import Image from "next/image";
 
