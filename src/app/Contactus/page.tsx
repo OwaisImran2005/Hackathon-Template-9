@@ -9,6 +9,7 @@ import Link from "next/link";
 import { LuUserRound } from "react-icons/lu";
 import { TfiEmail } from "react-icons/tfi";
 import { MdOutlineLock } from "react-icons/md";
+import Image from "next/image";
 
 
 
@@ -23,7 +24,7 @@ export default function Contactus(){
                 <p className="bactxt absolute font-geistsans text-5xl text-white font-semibold pt-28">Contact us</p>
                 <p className="bactxt2 absolute font-inter text-lg text-white flex">Home <MdKeyboardArrowRight className="arr absolute ml-14" /></p>
                 <p className="bactxt3 absolute font-inter text-lg text-[#FF9F0D] ">Contact us</p>
-                <img src={bac.src} alt="" width={1680}/>
+                <Image src={bac.src} alt="" width={1680}/>
         </div>
 
       <div className="signup text-black mt-36">
@@ -40,9 +41,9 @@ export default function Contactus(){
         <button className="sgnp">Sign up</button>
         <p className="text-sm text-gray-500 ml-64 mt-20">Forget password?</p>
         </div>
-        <img src={or.src} alt="" className="mt-5 ml-9"/>
-        <Link href="/"><img src={gle.src} alt=""  className="ml-10 pt-3"/></Link>
-        <Link href="/"><img src={aple.src} alt="" className="ml-10 pt-3"/></Link>
+        <Image src={or.src} alt="" className="mt-5 ml-9"/>
+        <Link href="/"><Image src={gle.src} alt=""  className="ml-10 pt-3"/></Link>
+        <Link href="/"><Image src={aple.src} alt="" className="ml-10 pt-3"/></Link>
       </div>
    
 
