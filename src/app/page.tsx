@@ -133,7 +133,7 @@ export default function Home() {
   <Image src={box.src} alt="" className="box absolute" /> 
   <PiHamburgerLight className="gridicn1 text-white absolute -ml-2 -mt-2 "/>
   <PiCookie className="gridicn2 text-white absolute" />
-  <PiWine className="gridicn3 text-white absolute" />
+  <PiWine className="gridicn3 text-white absolute -ml-5 -mt-2" />
 
   <Image src={expnce.src} alt="pic" className="exp absolute" width={300} height={100}/>
 </div>
